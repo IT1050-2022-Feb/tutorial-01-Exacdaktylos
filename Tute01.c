@@ -5,7 +5,12 @@
 #include <stdio.h>
 
 int main() {
-  
+  int chem, math;
+  printf("Please enter Chemistry Marks: ");
+  scanf("%d", &chem);
+  printf("Please enter Maths Marks: ");
+  scanf("%d", &math);
+  printf("Student's Average Marks: %d", (chem+math)/2);
   return 0;
 }
 
